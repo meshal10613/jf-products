@@ -20,7 +20,7 @@ export default function Navbar() {
                 <Link href={'/search'} className='text-base'><CiSearch size={20} /></Link>
                 <Link href={'/cart'} className='text-base'><IoBagOutline size={20} /></Link>
             </div>
-            <img src={'/logo.png'} alt='logo' className='absolute z-50 left-[46%] top-3'/>
+            <img src={'/logo.png'} alt='logo' className='absolute z-50 left-[40%] top-3'/>
         </div>
     )
 }
