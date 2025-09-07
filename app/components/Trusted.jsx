@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export default function Trusted() {
     return (
-        <div className='bg-[#002B55] max-w-7xl mx-auto rounded-3xl space-y-5 py-20 relative overflow-hidden'>
+        <div className='bg-[#002B55] max-w-7xl mx-auto md:rounded-3xl space-y-5 py-20 relative overflow-hidden mb-20'>
             <h2 className='text-[42px] font-medium text-white text-center'>Trusted by over 6K+ customers</h2>
             <div className='flex flex-col md:flex-row items-center justify-center gap-20'>
                 <div className='flex items-center gap-3'>
@@ -29,7 +29,7 @@ export default function Trusted() {
                     <h2 className='text-white font-medium text-3xl'>Premium <br /> <span className='text-2xl'>Products</span></h2>
                 </div>
             </div>
-            <Image src={Trusted4} alt="Trusted4" className='absolute -top-[58px] left-1/4 z-50' />
+            <Image src={Trusted4} alt="Trusted4" className='absolute -bottom-25 md:-top-[58px] md:left-1/4 z-50' />
         </div>
     )
 }
