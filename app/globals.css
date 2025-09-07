@@ -2,3 +2,19 @@
 @plugin "daisyui" {
     themes: light --default;
 }
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-slide {
+    display: flex;
+    width: max-content;
+    height: 50px;
+    animation: slide 15s linear infinite;
+}
