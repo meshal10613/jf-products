@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function QualityProducts() {
     return (
-    <div className="relative overflow-hidden bg-blue-100 rotate-[-5deg] border border-black my-32">
+    <div className="relative overflow-hidden bg-blue-100 rotate-[-5deg] border border-black mb-32">
         <div className="flex animate-slide whitespace-nowrap">
             {/* Repeat Items */}
             {Array(10).fill(0).map((_, i) => (

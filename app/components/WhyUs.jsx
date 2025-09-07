@@ -30,6 +30,9 @@ export default function WhyUs() {
                     <Image src={why4} alt='why1' className='absolute -top-1 left-1'/>
                 </div>
             </div>
+            <div className='flex items-center justify-center'>
+                <button className='btn rounded-3xl bg-[#B0DD1D] my-20'>Contact Us</button>
+            </div>
         </div>
     )
 }

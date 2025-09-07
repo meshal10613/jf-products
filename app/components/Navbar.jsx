@@ -6,7 +6,7 @@ import { IoBagOutline } from 'react-icons/io5'
 
 export default function Navbar() {
     return (
-        <div className='max-w-7xl mx-2 md:mx-auto flex items-center justify-between py-5'>
+        <div className='max-w-7xl mx-2 md:mx-auto flex items-center justify-between py-5 relative'>
             <div>
                 <ul className='flex items-center gap-3'>
                     <li><Link href='/home' className='text-base'>Home</Link></li>
@@ -20,6 +20,7 @@ export default function Navbar() {
                 <Link href={'/search'} className='text-base'><CiSearch size={20} /></Link>
                 <Link href={'/cart'} className='text-base'><IoBagOutline size={20} /></Link>
             </div>
+            <img src={'/logo.png'} alt='logo' className='absolute z-50 left-[46%] top-3'/>
         </div>
     )
 }
