@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export default function Trusted() {
     return (
-        <div className='bg-[#002B55] max-w-7xl mx-auto md:rounded-3xl space-y-5 py-20 relative overflow-hidden mb-20'>
+        <div className='bg-[#002B55] max-w-7xl mx-auto md:rounded-3xl space-y-5 py-32 relative overflow-hidden mb-20'>
             <h2 className='text-[42px] font-medium text-white text-center'>Trusted by over 6K+ customers</h2>
             <div className='flex flex-col md:flex-row items-center justify-center gap-20'>
                 <div className='flex items-center gap-3'>
