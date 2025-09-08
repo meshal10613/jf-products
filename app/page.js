@@ -4,6 +4,7 @@ import WhyUs from "./components/WhyUs";
 import QualityProducts from "./components/QualityProducts";
 import ProductSlider from "./components/ProductSlider";
 import ProductSlider2 from "./components/ProductSlider2";
+import Testimonial from "./components/Testmonial";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Trusted/>
       <WhyUs/>
       <QualityProducts/>
+      <Testimonial/>
     </div>
   );
 }

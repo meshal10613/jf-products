@@ -29,7 +29,7 @@ export default function Trusted() {
                     <h2 className='text-white font-medium text-3xl'>Premium <br /> <span className='text-2xl'>Products</span></h2>
                 </div>
             </div>
-            <Image src={Trusted4} alt="Trusted4" className='absolute -bottom-25 md:-top-[58px] md:left-1/4 z-50' />
+            <Image src={Trusted4} alt="Trusted4" className='absolute  md:-bottom-28 md:left-1/4 z-50' />
         </div>
     )
 }

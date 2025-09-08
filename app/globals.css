@@ -18,3 +18,8 @@
     height: 50px;
     animation: slide 15s linear infinite;
 }
+
+.mask{
+    background-image: url("@/app/assetes/mask.png");
+    background-repeat: no-repeat;
+}
